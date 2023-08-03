@@ -65,6 +65,10 @@ nav ul li {
     font-family: "Inter", sans-serif;
 }
 
+nav ul li a {
+    color: #D00000;
+}
+
 nav ul li img {
     width: 40px;
 }
