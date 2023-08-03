@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&display=swap");
+
+:root{
+    --green: #34B55D;
+    --redwood: #b23a48;
+    --melon: #fcb9b2;
+    --lightgreen: #E3FFF3;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.main{
+    background-color: var(--lightgreen);
+}
+/* Navbar */
+.container {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--melon);
+  font-size: 1.5rem;
+}
+.header-logo {
+  text-decoration: none;
+  margin-left: 40px;
+  color: var(--green);
+  font-weight: bold;
+  font-family: "Anton", sans-serif;
+}
+.header-logo img{
+  height: 65px;
+}
+.navbar {
+  margin-right: 40px;
+}
+.navlist {
+  list-style: none;
+}
+.navlist li {
+  margin: 0px 20px;
+  float: left;
+}
+.navlist li a {
+    font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  color: var(--redwood);
+}
+.navlist li .active{
+    color: var(--green);
+}
+
+/* main contents */
+.home-content{
+    display: grid;
+    margin-top: 40px;
+    grid-template-columns: 1.5fr 2fr;
+    grid-template-rows: 700px 700px;
+    grid-gap: 30px;
+}
+.app-img{
+    background-image: url('./img/food.avif');
+    background-repeat: no-repeat;
+    margin-left: 20px;
+}
+.text-content{
+    font-size: 2rem;
+    padding: 30px 30px 0px 0px;
+    /* max-width: 500px; */
+}
+.text-content h1{
+    color: var(--green);
+    text-transform: uppercase;
+}
+.text-content p{
+    margin-top: 20px;
+}
